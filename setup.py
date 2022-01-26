@@ -14,13 +14,5 @@ setup(
     author_email='ai-tics@gmail.com',
     py_modules=['object_detection'],
     scripts=['object_detection'],
-    install_requires=['Pillow', 'matplotlib', 'Cython'],
-    classifiers = (
-        'Development Status :: 2 - Pre-Alpha',
-        'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
-        'Natural Language :: English',
-        'Programming Language :: Python',
-        'Topic :: Software Development :: Testing',
-    ),
+    install_requires=['Pillow', 'matplotlib', 'Cython']
 )
